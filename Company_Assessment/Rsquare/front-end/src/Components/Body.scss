@@ -1,0 +1,271 @@
+.Body {
+  flex: 0.65;
+  padding: 0 2rem 0 2rem;
+}
+
+.bodySearchbar {
+  display: flex;
+  align-items: center;
+  .searchIconCnt {
+    background-color: #f6f6f6;
+    height: 3.5rem;
+    width: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .searchIcon {
+      height: 2rem;
+      width: 3.5rem;
+      background-color: #f6f6f6;
+    }
+  }
+
+  .searchBar {
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+  }
+  .searchBar:focus {
+    outline: none;
+  }
+}
+
+.bodyContent {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.progressBar {
+  display: flex;
+  flex-direction: column;
+  .cards {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    .card1 {
+      flex: 0.42;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      border-radius: 0.4rem;
+      background-image: linear-gradient(to top, #7a9fff 0%, #6590ff 100%);
+      color: #fff;
+
+      .heading {
+        display: flex;
+        justify-content: space-between;
+      }
+      .heading > .cnt {
+        width: 9rem;
+        display: flex;
+        border-radius: 0.4rem;
+        padding: 0.4rem;
+        align-items: center;
+        background-color: #5375ce;
+      }
+
+      .body {
+        font-weight: bold;
+        margin-top: 2rem;
+        font-size: 3rem;
+      }
+    }
+    .card2 {
+      flex: 0.28;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      border-radius: 0.4rem;
+      background-image: linear-gradient(to top, #7ad1ff 0%, #65caff 100%);
+      color: #fff;
+
+      .heading > .cnt {
+        width: 9rem;
+        display: flex;
+        border-radius: 0.4rem;
+        padding: 0.4rem;
+        align-items: center;
+        background-color: #53a4ce;
+      }
+      .body {
+        font-weight: bold;
+        margin-top: 2rem;
+        font-size: 3rem;
+      }
+    }
+    .card3 {
+      flex: 0.28;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      border-radius: 0.4rem;
+      background-image: linear-gradient(to top, #b97aff 0%, #ad65ff 100%);
+      color: #fff;
+
+      .heading > .cnt {
+        width: 9rem;
+        display: flex;
+        border-radius: 0.4rem;
+        padding: 0.4rem;
+        align-items: center;
+        background-color: #9664ce;
+      }
+      .body {
+        font-weight: bold;
+        margin-top: 2rem;
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+.project {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  .projectHeading {
+    display: flex;
+    h3 {
+      flex: 0.85;
+    }
+    .sideIcons {
+      flex: 0.15;
+      display: flex;
+      justify-content: space-between;
+
+      .filter {
+        padding: 7px 10px 5px 10px;
+        border-radius: 0.4rem;
+        box-shadow: 0 0 1rem rgb(219, 214, 214);
+      }
+      .ellipsis {
+        padding: 7px 10px 5px 10px;
+        border-radius: 0.4rem;
+        box-shadow: 0 0 1rem rgb(219, 214, 214);
+      }
+    }
+  }
+
+  .cards {
+    margin-top: 1rem;
+    display: flex;
+    .card1 {
+      border: 2px solid #f3f5f7;
+      width: 20rem;
+      border-radius: 0.4rem;
+      padding: 1rem;
+      .cnt {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .deadline {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+      .workDone {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        .workProgress {
+          height: 0.6rem;
+          border-radius: 0.3rem;
+          background-color: #e9ecef;
+          .completed {
+            height: 0.6rem;
+            border-radius: 0.3rem;
+            width: 80%;
+            background-color: #14a9f9;
+          }
+        }
+
+        .progressInfo {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      .vendorDetails {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        .vendorProfile {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .vendorPhoto {
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            margin-right: 1rem;
+          }
+        }
+        .view {
+          padding: 0.3rem 1rem 0.3rem 1rem;
+          background-color: #14a9f9;
+          border-radius: 0.4rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.invoice {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  .invoiceHeading {
+    display: flex;
+    justify-content: space-between;
+    .ellipsis {
+      padding: 7px 10px 5px 10px;
+      border-radius: 0.4rem;
+      box-shadow: 0 0 1rem rgb(219, 214, 214);
+    }
+  }
+
+  .cards {
+    margin-top: 1rem;
+    display: flex;
+    .card1 {
+      border: 2px solid #f3f5f7;
+      width: 20rem;
+      border-radius: 0.4rem;
+      padding: 1rem;
+      .amountOptions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .approved {
+          padding: 0.3rem 1rem 0.3rem 1rem;
+          background-color: #15c15d;
+          border-radius: 0.4rem;
+          color: #fff;
+        }
+        .pending {
+          padding: 0.3rem 1rem 0.3rem 1rem;
+          background-color: #14a9f9;
+          border-radius: 0.4rem;
+          color: #fff;
+        }
+      }
+      .profile {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        .profilePhoto {
+          height: 40px;
+          width: 40px;
+          border-radius: 50%;
+          margin-right: 1rem;
+        }
+        .profileDetails {
+        }
+      }
+    }
+  }
+}

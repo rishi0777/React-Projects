@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "bannerFont";
+  src: local("bannerFont"), url(assets/font3.woff) format("woff");
+}
+@font-face {
+  font-family: "poppinsBold";
+  src: local("poppinsBold"), url(assets/poppinsBold.ttf) format("woff");
+}
+@font-face {
+  font-family: "poppinsRegular";
+  src: local("poppinsRegular"), url(assets/poppinsBold.ttf) format("woff");
+}
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111111;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

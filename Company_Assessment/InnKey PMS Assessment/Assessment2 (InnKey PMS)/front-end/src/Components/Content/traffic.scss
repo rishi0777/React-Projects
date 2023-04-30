@@ -1,0 +1,96 @@
+.cnt {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.allItems {
+  background-color: #fff;
+  border-radius: 1%;
+  width: 60%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.row {
+  width: 85%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.col1 {
+  font-weight: bold;
+  flex: 0.2;
+}
+.col2 {
+  flex: 0.8;
+}
+
+input[type="text"],
+option,
+select {
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: "Courier New", Courier, monospace;
+
+  outline: none;
+  background: #f5f5f5;
+  border: 0;
+  padding: 0.6rem;
+}
+input[type="file"] {
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}
+textarea,
+p {
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: "Courier New", Courier, monospace;
+
+  outline: none;
+  background: #f5f5f5;
+  border: 0;
+  padding: 0.6rem;
+}
+
+button {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #d1544d;
+  font-size: 1.1rem;
+  padding: 1.5%;
+  border: none;
+  border-width: 0.2rem;
+  color: #fff;
+  transition: 500ms ease-in-out;
+}
+button:hover {
+  color: #fff;
+  background-color: #111111;
+}
+
+#resetbtn {
+  width: 28%;
+}
+#submitbtn {
+  width: 70%;
+}
+
+.trafficCnt {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.space {
+  padding-top: 2%;
+}
+.remove {
+  cursor: none;
+}
